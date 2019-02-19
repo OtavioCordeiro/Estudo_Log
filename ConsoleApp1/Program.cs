@@ -1,0 +1,17 @@
+﻿using Estudo_LogWithSeq;
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+
+            Sample sample = new Sample();
+
+            sample.LogSample();
+        }
+    }
+}
